@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "8441194bea2eff16c07d5c99d9bc9d5b8012b035"
+    "signature": "cfd2cc0ef56fff53104495e227e6874792345dc5"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.1": {
       "gamingWebshop/1.0.0": {
         "dependencies": {
+          "Bogus": "24.3.1",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.4",
@@ -35,6 +36,17 @@
         },
         "compile": {
           "gamingWebshop.dll": {}
+        }
+      },
+      "Bogus/24.3.1": {
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {
+            "assemblyVersion": "24.3.1.0",
+            "fileVersion": "24.3.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Bogus.dll": {}
         }
       },
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
@@ -3643,6 +3655,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Bogus/24.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ONVM8NjezBrKJOe+mOYlhhl1EbGxYdccvJYLi4IeMXP0EBQcdamAoxSe4wgTmUzNKE1vj/GnhJ2BU6KnBvWVug==",
+      "path": "bogus/24.3.1",
+      "hashPath": "bogus.24.3.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",

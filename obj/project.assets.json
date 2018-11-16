@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "Bogus/24.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4777,6 +4786,22 @@
     }
   },
   "libraries": {
+    "Bogus/24.3.1": {
+      "sha512": "ONVM8NjezBrKJOe+mOYlhhl1EbGxYdccvJYLi4IeMXP0EBQcdamAoxSe4wgTmUzNKE1vj/GnhJ2BU6KnBvWVug==",
+      "type": "package",
+      "path": "bogus/24.3.1",
+      "files": [
+        ".signature.p7s",
+        "bogus.24.3.1.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "rMDlyePoxggkmN/qgha1+BR2Uy+dOr38xKCQOPfVNKGY07R2nYJGMTKJFE1XFgwD70RYUNazf2fqutjJF18XgQ==",
       "type": "package",
@@ -12537,6 +12562,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Bogus >= 24.3.1",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.1.4",
@@ -12551,11 +12577,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\M307_Projekt\\gamingWebshop.csproj",
+      "projectUniqueName": "C:\\Projekt307\\gamingWebshop\\gamingWebshop.csproj",
       "projectName": "gamingWebshop",
-      "projectPath": "C:\\Projects\\M307_Projekt\\gamingWebshop.csproj",
+      "projectPath": "C:\\Projekt307\\gamingWebshop\\gamingWebshop.csproj",
       "packagesPath": "C:\\Users\\vmadmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\M307_Projekt\\obj\\",
+      "outputPath": "C:\\Projekt307\\gamingWebshop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12585,6 +12611,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[24.3.1, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",

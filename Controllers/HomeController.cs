@@ -17,7 +17,6 @@ namespace gamingWebshop.Controllers
 
         public IActionResult Gear()
         {
-            ViewData["Message"] = "Your contact page.";
 
             return View();
         }
