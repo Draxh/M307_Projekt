@@ -11,6 +11,6 @@ namespace gamingWebshop.Models
 
         public string Password {get; set;}
 
-        public long ShoppingCartFk {get; set;}
+        public ShoppingCart ShoppingCart {get; set;}
     }
 }
