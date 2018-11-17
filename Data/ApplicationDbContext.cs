@@ -14,27 +14,40 @@ namespace gamingWebshop.Data
             : base(options)
         {
         }
-
         public DbSet<Product> Products {get; set; }
         public DbSet<Category> Categories {get; set; }
+        public DbSet<User> Users {get; set;}
+        public DbSet<ShoppingCart> ShoppingCarts {get; set;}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
             var productsIds = 1;
             var testProduct = new Faker<Product>()
-                .RuleFor(prod => prod.ProductId, () => productsIds++)
-                .RuleFor(prod => prod.ProductName, f => f.Lorem.Slug(8))
-                .RuleFor(prod => prod.Description, f => f.Lorem.Slug(8))
-                .RuleFor(prod => prod.Price,(8));
+                .RuleFor(p => p.ProductId, () => productsIds++)
+                .RuleFor(p => p.ProductName, f => f.Lorem.Slug(8))
+                .RuleFor(p => p.Description, f => f.Lorem.Slug(8))
+                .RuleFor(p => p.Price,(8));
 
             var categoryIds = 1;
             var testCategory = new Faker<Category>()
-                .RuleFor(prod => prod.CategoryId, () => categoryIds++)
-                .RuleFor(prod => prod.CategoryName, f => f.Lorem.Slug(8));
+                .RuleFor(c => c.CategoryId, () => categoryIds++)
+                .RuleFor(c => c.CategoryName, f => f.Lorem.Slug(8));
+
+            var userIds = 1;
+            var testUser = new Faker<User>()
+                .RuleFor(u => u.FirstName, f => f.Lorem.Slug(8))
+                .RuleFor(u => u.LastName, f => f.Lorem.Slug(8))
+                .RuleFor(u => u.Password, f => f.Lorem.Slug(8));
+
+            var shoppingcartIds = 1;
+            var testShoppingCart = new Faker<ShoppingCart>()
+                .RuleFor(s => s.ShoppingCartId, () => shoppingcartIds++);
 
             var products = new List<dynamic>();
             var categories = new List<dynamic>();
+            var users = new List<dynamic>();
+            var shoppingcarts = new List<dynamic>();
 
             var rnd = new Random();
 
@@ -52,16 +65,36 @@ namespace gamingWebshop.Data
 
             foreach(var category in testCategory.Generate(3))
             {
-                products.Add(new
+                categories.Add(new
                 {
                     CategoryId = category.CategoryId,
                     CategoryName = category.CategoryName
                 });
             }
 
+            foreach(var user in testUser.Generate(20))
+            {
+                users.Add(new
+                {
+                    ShoppingCartId = (Int64) rnd.Next(1, shoppingcartIds),
+                    FirstName = user.FirstName,
+                    Lastname = user.LastName,
+                    Password = user.Password
+                });
+            }
+
+            foreach(var shoppingcart in testShoppingCart.Generate(20))
+            {
+                shoppingcarts.Add(new
+                {
+                    ShoppingCartId = shoppingcart.ShoppingCartId
+                });
+            }
+
             modelBuilder.Entity<Product>().HasData(products.ToArray());
             modelBuilder.Entity<Category>().HasData(categories.ToArray());
+            modelBuilder.Entity<User>().HasData(users.ToArray());
+            modelBuilder.Entity<ShoppingCart>().HasData(users.ToArray());
         }
-
     }
 }

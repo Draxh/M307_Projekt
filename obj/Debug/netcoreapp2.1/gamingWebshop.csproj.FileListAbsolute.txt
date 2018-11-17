@@ -42,7 +42,6 @@ C:\Projekt307\gamingWebshop\obj\Debug\netcoreapp2.1\Razor\Views\Team\Fnatic.g.cs
 C:\Projekt307\gamingWebshop\obj\Debug\netcoreapp2.1\Razor\Views\Team\Astralis.g.cshtml.cs
 C:\Projekt307\gamingWebshop\obj\Debug\netcoreapp2.1\Razor\Views\Team\GenG.g.cshtml.cs
 C:\Projekt307\gamingWebshop\obj\Debug\netcoreapp2.1\Razor\Views\Team\TSM.g.cshtml.cs
-C:\Projects\M307_Projekt\bin\Debug\netcoreapp2.1\app.db
 C:\Projects\M307_Projekt\bin\Debug\netcoreapp2.1\gamingWebshop.deps.json
 C:\Projects\M307_Projekt\bin\Debug\netcoreapp2.1\gamingWebshop.runtimeconfig.json
 C:\Projects\M307_Projekt\bin\Debug\netcoreapp2.1\gamingWebshop.runtimeconfig.dev.json
