@@ -36,6 +36,7 @@ namespace gamingWebshop.Data
 
             var userIds = 1;
             var testUser = new Faker<User>()
+                .RuleFor(u => u.UserId, () => userIds++)
                 .RuleFor(u => u.FirstName, f => f.Lorem.Slug(8))
                 .RuleFor(u => u.LastName, f => f.Lorem.Slug(8))
                 .RuleFor(u => u.Password, f => f.Lorem.Slug(8));
@@ -76,7 +77,7 @@ namespace gamingWebshop.Data
             {
                 users.Add(new
                 {
-                    ShoppingCartId = (Int64) rnd.Next(1, shoppingcartIds),
+                    UserId = user.UserId,
                     FirstName = user.FirstName,
                     Lastname = user.LastName,
                     Password = user.Password
@@ -94,7 +95,7 @@ namespace gamingWebshop.Data
             modelBuilder.Entity<Product>().HasData(products.ToArray());
             modelBuilder.Entity<Category>().HasData(categories.ToArray());
             modelBuilder.Entity<User>().HasData(users.ToArray());
-            modelBuilder.Entity<ShoppingCart>().HasData(users.ToArray());
+            modelBuilder.Entity<ShoppingCart>().HasData(shoppingcarts.ToArray());
         }
     }
 }

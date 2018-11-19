@@ -6,5 +6,7 @@ namespace gamingWebshop.Models
     public class ShoppingCart
     {
         public long ShoppingCartId {get; set;}
+
+        public Product Product {get; set;}
     }
 }
