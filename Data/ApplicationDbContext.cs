@@ -14,9 +14,9 @@ namespace gamingWebshop.Data
             : base(options)
         {
         }
+        
         public DbSet<Product> Products {get; set; }
         public DbSet<Category> Categories {get; set; }
-        public DbSet<User> Users {get; set;}
         public DbSet<ShoppingCart> ShoppingCarts {get; set;}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -38,8 +38,7 @@ namespace gamingWebshop.Data
             var testUser = new Faker<User>()
                 .RuleFor(u => u.UserId, () => userIds++)
                 .RuleFor(u => u.FirstName, f => f.Lorem.Slug(8))
-                .RuleFor(u => u.LastName, f => f.Lorem.Slug(8))
-                .RuleFor(u => u.Password, f => f.Lorem.Slug(8));
+                .RuleFor(u => u.LastName, f => f.Lorem.Slug(8));
 
             var shoppingcartIds = 1;
             var testShoppingCart = new Faker<ShoppingCart>()
@@ -73,14 +72,14 @@ namespace gamingWebshop.Data
                 });
             }
 
-            foreach(var user in testUser.Generate(20))
+             foreach(var user in testUser.Generate(0))
             {
                 users.Add(new
                 {
                     UserId = user.UserId,
                     FirstName = user.FirstName,
                     Lastname = user.LastName,
-                    Password = user.Password
+                    
                 });
             }
 
