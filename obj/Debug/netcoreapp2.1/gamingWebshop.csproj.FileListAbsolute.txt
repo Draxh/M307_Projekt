@@ -85,3 +85,8 @@ C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\gamingWebshop.Views.pdb
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\gamingWebshop.dll
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\gamingWebshop.pdb
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\gamingWebshop.csproj.CopyComplete
+C:\Projects\M307_Projekt\bin\Debug\netcoreapp2.1\app.db
+C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
