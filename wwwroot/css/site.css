@@ -3,6 +3,7 @@ for details on configuring this project to bundle and minify static web assets. 
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Palanquin', sans-serif;
 }
 
 /* Wrapping element */
@@ -36,6 +37,7 @@ body {
     }
 }
 
+/*Register and Login CSS - Start*/
 .form-signin
 {
     max-width: 330px;
@@ -111,3 +113,4 @@ body {
     display: block;
     margin-top: 10px;
 }
+/*Register and Login CSS - End*/

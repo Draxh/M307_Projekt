@@ -18,6 +18,12 @@ namespace gamingWebshop.Controllers
             _context = context;
         }
 
+        /* public ActionResult Index(){
+            var products = _context.Categories.Include(a => a.Tasks);
+
+            return null;
+        }*/
+
         public IActionResult Index()
         {
             return View();
