@@ -12577,11 +12577,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projekt307\\M307_Projekt\\gamingWebshop.csproj",
+      "projectUniqueName": "C:\\Projects\\M307_Projekt\\gamingWebshop.csproj",
       "projectName": "gamingWebshop",
-      "projectPath": "C:\\Projekt307\\M307_Projekt\\gamingWebshop.csproj",
+      "projectPath": "C:\\Projects\\M307_Projekt\\gamingWebshop.csproj",
       "packagesPath": "C:\\Users\\vmadmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Projekt307\\M307_Projekt\\obj\\",
+      "outputPath": "C:\\Projects\\M307_Projekt\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

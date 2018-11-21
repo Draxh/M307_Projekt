@@ -75,7 +75,6 @@ C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationS
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Views\Team\Astralis.g.cshtml.cs
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Views\Team\Cloud9.g.cshtml.cs
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Views\Team\Fnatic.g.cshtml.cs
-C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Views\Team\GenG.g.cshtml.cs
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Views\Team\TSM.g.cshtml.cs
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
@@ -145,3 +144,4 @@ C:\Projekt307\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Views\Team\SKTT1.g.csht
 =======
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
 >>>>>>> c525280a2aef2ce2951498af777aeed6ec10822b
+C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Views\Team\SKTT1.g.cshtml.cs
