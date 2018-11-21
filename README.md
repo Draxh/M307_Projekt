@@ -1,3 +1,3 @@
 # M307_Projekt
 
-Computerschule BHern AG
+Computerschule Bern AG
