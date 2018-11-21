@@ -54,7 +54,7 @@ using gamingWebshop.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(25, 77, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ee178d70601c49168789cd97eb4c7365", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3a1b3fbbab8f4eab91e4852474545393", async() => {
                 BeginContext(31, 64, true);
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <title>Team Cloud9</title>\r\n");
                 EndContext();
@@ -74,7 +74,7 @@ using gamingWebshop.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(104, 46, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ddd7d5c44cfb4a10a8072b56c637e486", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f41e504d05b445c99abe47874029230d", async() => {
                 BeginContext(110, 33, true);
                 WriteLiteral("\r\n\r\n\r\n<h1>Hallo Cloud9</h1>\r\n\r\n\r\n");
                 EndContext();

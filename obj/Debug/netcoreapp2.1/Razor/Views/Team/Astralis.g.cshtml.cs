@@ -54,7 +54,7 @@ using gamingWebshop.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(25, 79, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "879fa52963b74cfa838dca8c5d530a70", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3bae4da1e5c34601b05051d2b5188022", async() => {
                 BeginContext(31, 66, true);
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <title>Team Astralis</title>\r\n");
                 EndContext();
@@ -74,7 +74,7 @@ using gamingWebshop.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(106, 48, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c3f19b1bd1f489c9586a085a2eace26", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "25a967187a454372b1eb27c4fd291727", async() => {
                 BeginContext(112, 35, true);
                 WriteLiteral("\r\n\r\n\r\n<h1>Hallo Astralis</h1>\r\n\r\n\r\n");
                 EndContext();
