@@ -1,50 +1,51 @@
 @page
 @model RegisterModel
 @{
-    ViewData["Title"] = "Registration";
+    ViewData["Title"] = "Register";
 }
 
 <h2>@ViewData["Title"]</h2>
 
-<div class="row">
-    <div class="col-md-4">
-        <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
-            <hr />
-            <div asp-validation-summary="All" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Input.Firstname"></label>
-                <input asp-for="Input.Firstname" class="form-control" />
-                <span asp-validation-for="Input.Firstname" class="text-danger"></span>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-md-offset-4">  
+            <div class="account-wall">
+                <form class="form-signin" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                    <h1 class="text-center login-title">Register</h1>
+                    <div class="form-group">
+                        <label asp-for="Input.Firstname"></label>
+                        <input asp-for="Input.Firstname" class="form-control" />
+                        <span asp-validation-for="Input.Firstname" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Input.Lastname"></label>
+                        <input asp-for="Input.Lastname" class="form-control" />
+                        <span asp-validation-for="Input.Lastname" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Input.Email"></label>
+                        <input asp-for="Input.Email" class="form-control" />
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Input.Password"></label>
+                        <input asp-for="Input.Password" class="form-control" />
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Input.ConfirmPassword"></label>
+                        <input asp-for="Input.ConfirmPassword" class="form-control" />
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-primary btn-block">Register</button>
+                    <div class="form-group">
+                        <p>
+                            <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl" class="text-center new-account">Already have an account?</a>
+                        </p>
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-                <label asp-for="Input.Lastname"></label>
-                <input asp-for="Input.Lastname" class="form-control" />
-                <span asp-validation-for="Input.Lastname" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Input.Email"></label>
-                <input asp-for="Input.Email" class="form-control" />
-                <span asp-validation-for="Input.Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Input.Password"></label>
-                <input asp-for="Input.Password" class="form-control" />
-                <span asp-validation-for="Input.Password" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Input.ConfirmPassword"></label>
-                <input asp-for="Input.ConfirmPassword" class="form-control" />
-                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-            </div>
-            <div>
-                <button type="submit" class="btn btn-default">Register</button>
-            </div>
-            <div class="form-group">
-                    <p>
-                        <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Already have an account?</a>
-                    </p>
-                </div>
-        </form>
+        </div>
     </div>
 </div>
 
