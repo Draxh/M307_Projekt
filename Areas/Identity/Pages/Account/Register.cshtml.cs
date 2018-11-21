@@ -40,6 +40,14 @@ namespace gamingWebshop.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
+            [Display(Name = "Firstname")]
+            public string Firstname { get; set; }
+
+            [Required]
+            [Display(Name = "Lastname")]
+            public string Lastname { get; set; }
+
+            [Required]
             [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }

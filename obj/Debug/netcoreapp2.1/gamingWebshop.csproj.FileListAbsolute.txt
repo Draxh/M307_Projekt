@@ -91,6 +91,7 @@ C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Acco
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+<<<<<<< HEAD
 C:\Projekt307\M307_Projekt\bin\Debug\netcoreapp2.1\app.db
 C:\Projekt307\M307_Projekt\bin\Debug\netcoreapp2.1\gamingWebshop.deps.json
 C:\Projekt307\M307_Projekt\bin\Debug\netcoreapp2.1\gamingWebshop.runtimeconfig.json
@@ -141,3 +142,6 @@ C:\Projekt307\M307_Projekt\obj\Debug\netcoreapp2.1\gamingWebshop.dll
 C:\Projekt307\M307_Projekt\obj\Debug\netcoreapp2.1\gamingWebshop.pdb
 C:\Projekt307\M307_Projekt\obj\Debug\netcoreapp2.1\gamingWebshop.csproj.CopyComplete
 C:\Projekt307\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Views\Team\SKTT1.g.cshtml.cs
+=======
+C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+>>>>>>> c525280a2aef2ce2951498af777aeed6ec10822b
