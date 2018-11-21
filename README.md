@@ -1,3 +1,3 @@
 # M307_Projekt
 
-Computerschule BHern AG
+Its a gaming webshop for 5 different teams. You can buy computer gear and clothes.
