@@ -32,9 +32,9 @@
 
 .myDropdownMenuItems ul li {
     width: 150px;
+    list-style: none;
 }
 
 .myDropdownMenuItems ul li a:hover {
-
     background-color: #4f4f4f
 }
