@@ -3056,10 +3056,76 @@ a.btn.disabled,
 fieldset[disabled] a.btn {
   pointer-events: none;
 }
+
+#c9Button{  
+  color: #ffffff;
+  background-color: #62AFFF;
+  border-color: #353333;
+  border-radius: 7px;
+}
+
+#c9Button:hover{  
+  color: #ffffff;
+  background-color: #5A9BEB;
+  border-color: #353333;
+}
+
+#fncButton{  
+  color: #ffffff;
+  background-color: #FF9416;
+  border-color: #353333;
+  border-radius: 7px;
+}
+
+#fncButton:hover{  
+  color: #ffffff;
+  background-color: #FF8200;
+  border-color: #353333;
+}
+
+#tsmButton{  
+  color: #ffffff;
+  background-color: #3d3d3d;
+  border-color: #353333;
+  border-radius: 7px;
+}
+
+#tsmButton:hover{  
+  color: #ffffff;
+  background-color: #4f4f4f;
+  border-color: #353333;
+}
+
+#sktt1Button{  
+  color: #ffffff;
+  background-color: #FF3523;
+  border-color: #353333;
+  border-radius: 7px;
+}
+
+#sktt1Button:hover{  
+  color: #ffffff;
+  background-color: #D4140A;
+  border-color: #353333;
+}
+
+#astralisButton{  
+  color: #ffffff;
+  background-color: #FF3523;
+  border-color: #353333;
+  border-radius: 7px;
+}
+
+#astralisButton:hover{  
+  color: #ffffff;
+  background-color: #D4140A;
+  border-color: #353333;
+}
+
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  color: #ccc;
+  background-color: #4f4f4f;
+  border-color: #4f4f4f;
 }
 .btn-default:focus,
 .btn-default.focus {

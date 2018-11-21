@@ -26,7 +26,7 @@ namespace gamingWebshop.Controllers
         return View();
     }
 
-    public IActionResult GenG()
+    public IActionResult SKTT1()
     {
         return View();
     }
