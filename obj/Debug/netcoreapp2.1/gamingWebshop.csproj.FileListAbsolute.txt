@@ -90,3 +90,4 @@ C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Acco
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
 C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Projects\M307_Projekt\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
